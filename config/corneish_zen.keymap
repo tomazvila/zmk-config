@@ -197,4 +197,7 @@ layers:
     - ["SHFT", "XXX", "XXX", "XXX", "XXX", "XXX", "XXX", "XXX", "XXX", "XXX", "XXX", "XXX"]
     - ["LGui", "LWR", "SPC", "ENT", "RSE", "ALT"]
 
+for:
+https://caksoylar-keymap-drawer-streamlitapp-2a0rau.streamlit.app
+https://github.com/caksoylar/keymap-drawer
 */
