@@ -68,14 +68,14 @@
                 default_layer {
                         label = "COLEMAK";
 // -----------------------------------------------------------------------------------------
-// | TAB  |  Q  |  W  |  F  |  P  |  G  |   |  J  |  L   |  U  |  Y  |  ;  |  \   |
-// | ESC  |  A  |  R  |  S  |  T  |  D  |   |  H  |  N   |  E  |  I  |  O  |  '   |
-// | L_NUMPAD |  Z  |  X  |  C  |  V  |  B  |   |  K  |  M   |  ,  |  .  |  /  |  =   |
+// | TAB  |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  |  \   |
+// | ESC  |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  '   |
+// | L_NUMPAD |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  |  =   |
 //                    | GUI | SHFT| SPC/NUMBER |   | ENT/SYMBOL | SHFT/BSPC | BKSP|
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U  &kp Y  &kp SEMI    &kp BSLH
-   &kp ESC   &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E  &kp I  &kp O &kp SQT
-   &mo L_NUMPAD &mt LCTRL Z &kp X &kp C &kp V   &kp B   &kp K &kp M  &kp COMMA &kp DOT &mt RCTRL FSLH &kp EQUAL
+   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U  &kp Y  &kp SEMI    &kp BSLH
+   &kp ESC   &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E  &kp I  &kp O &kp SQT
+   &mo L_NUMPAD &mt LCTRL Z &kp X &kp C &kp D  &kp V  &kp K &kp COMMA &kp DOT &mt RCTRL FSLH &kp EQUAL
               &td0 &kp LSHIFT &lt L_NUMBER SPACE    &lt L_SYMBOL RET &mt RSHIFT BSPC &mt RALT DEL
                         >;
                 };
@@ -167,9 +167,9 @@ layout:
     thumbs: 3
 layers:
   COLEMAK:
-    - ["Tab", "Q", "W", "F", "P", "G", "J", "L", "U", "Y", ";", "\\"]
-    - ["ESC", "A", "R", "S", "T", "D", "H", "N", "E", "I", "O", "'"]
-    - ["L_NUMPAD", "Z", "X", "C", "V", "B", "K", "M", ",", ".", "/", "="]
+    - ["Tab", "Q", "W", "F", "P", "B", "J", "L", "U", "Y", ";", "\\"]
+    - ["ESC", "A", "R", "S", "T", "G", "M", "N", "E", "I", "O", "'"]
+    - ["L_NUMPAD", "Z", "X", "C", "D", "V", "K", "H", ",", ".", "/", "="]
     - ["LGui", "SHFT", "SPC/NUM", "ENT/\nSYM", "SHFT/\nBSPC", "Bspace"]
   QWERTY:
     - ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "\\"]
