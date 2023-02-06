@@ -76,7 +76,7 @@
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U  &kp Y  &kp SEMI    &kp BSLH
    &kp ESC   &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E  &kp I  &kp O &kp SQT
    &mo L_NUMPAD &mt LCTRL Z &kp X &kp C &kp D  &kp V  &kp K &kp H &kp COMMA &kp DOT &mt RCTRL FSLH &kp EQUAL
-              &td0 &kp LSHIFT &lt  L_SYMBOL SPACE   &lt L_NUMBER  RET &mt RSHIFT BSPC &mt RALT DEL
+              &td0 &kp LSHIFT &lt  L_SYMBOL SPACE   &lt L_NUMBER  RET &mt RSHIFT BSPC &kp RALT
                         >;
                 };
 				
@@ -92,7 +92,7 @@
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSLH
    &kp ESC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &mo L_NUMPAD &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp EQUAL
-              &td0 &kp LSHIFT &lt L_SYMBOL  SPACE    &lt L_NUMBER RET &mt RSHIFT BSPC &mt RALT DEL
+              &td0 &kp LSHIFT &lt L_SYMBOL  SPACE    &lt L_NUMBER RET &mt RSHIFT BSPC &kp RALT
                         >;
                 };
 				
@@ -107,7 +107,7 @@
    &kp GRAVE    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp MINUS
    &kp TILDE    &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &kp UNDERSCORE
    &kp C_VOL_DN  &kp C_BRI_DEC &kp C_BRI_INC &kp F12  &trans &trans &trans   &kp K_MUTE  &kp K_PP &kp K_PREV &kp K_NEXT &kp C_VOL_UP
-              &td0 &kp LSHIFT &lt L_SYMBOL SPACE  &lt L_NUMBER RET &mt RSHIFT BSPC &mt RALT DEL
+              &td0 &kp LSHIFT &lt L_SYMBOL SPACE  &lt L_NUMBER RET &mt RSHIFT BSPC &kp RALT
                         >;
                 };
 
@@ -122,7 +122,7 @@
    &kp F1 &kp F2 &kp F3 &kp LBRC &kp RBRC &trans   &kp PG_UP &kp HOME  &kp UP   &kp END &trans &trans
    &kp F4 &kp F5 &kp F6 &kp LPAR &kp RPAR &kp PIPE &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &k_lock &trans
    &kp F7 &kp F8 &kp F9 &kp LBKT &kp RBKT &trans   &trans    &trans    &trans   &trans    &trans &trans
-              &td0 &kp LSHIFT &lt L_SYMBOL SPACE  &lt L_NUMBER  RET &mt RSHIFT BSPC &mt RALT DEL
+              &td0 &kp LSHIFT &lt L_SYMBOL SPACE  &lt L_NUMBER  RET &mt RSHIFT BSPC &kp RALT
                         >;
                 };
                                                
@@ -137,7 +137,7 @@
    &trans &trans &trans &trans &trans &trans &trans &kp N7  &kp N8  &kp N9   &kp PLUS  &trans
    &trans &trans &trans &trans &trans &trans &trans &kp N4  &kp N5  &kp N6   &kp MINUS &trans
    &trans &trans &trans &trans &trans &trans &kp N0 &kp N1  &kp N2  &kp N3   &trans    &trans
-              &td0 &kp LSHIFT &lt L_SYMBOL SPACE  &lt L_NUMBER RET &mt RSHIFT BSPC &mt RALT DEL
+              &td0 &kp LSHIFT &lt L_SYMBOL SPACE  &lt L_NUMBER RET &mt RSHIFT BSPC &kp RALT
                         >;
                 };
                 
@@ -153,7 +153,7 @@
    &none       &none   &none     &none   &none   &none        &none    &none   &none      &none   &to L_DEFAULT &to L_QWERTY
    &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &none &none &none &none &none &none
    &none       &none   &none     &none   &none   &none        &none    &none   &none      &none   &none         &none
-              &td0 &kp LSHIFT &lt L_SYMBOL SPACE   &lt  L_NUMBER RET &mt RSHIFT BSPC &mt RALT DEL
+              &td0 &kp LSHIFT &lt L_SYMBOL SPACE   &lt  L_NUMBER RET &mt RSHIFT BSPC &kp RALT 
                         >;
                 };
 		};
